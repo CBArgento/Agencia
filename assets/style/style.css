@@ -1,0 +1,104 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    font-size: 1.2em;
+    
+}
+
+.navbar-nav {
+    float: right;
+}
+
+
+.partners {
+    text-align: center;
+}
+
+#partnersid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.card {
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#footer {
+    background-color: lightcyan;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#footerimg {
+    width: 25px;
+    height: 25px;
+}
+
+#home {
+    background: url("https://github.com/CBArgento/OnePageTemp1/blob/master/assets/imgs/OffSpace.jpg?raw=true") no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.landing-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+.pgtitle {
+    font-family: 'Akronim', cursive;
+    color: yellow;
+    font-size: 120px;
+    font-weight: 580;
+}
+
+.subtext {
+    font-size: 80px;
+    word-wrap: break-word;
+}
+
+.padding {
+    padding: 80px 0;
+}
+
+#fixed {
+    background: url("https://github.com/CBArgento/OnePageTemp1/blob/master/assets/imgs/office.jpg?raw=true") no-repeat center center fixed;
+    display: trable;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
