@@ -60,7 +60,7 @@ html, body {
 }
 
 .pgtitle {
-    font-family: 'Akronim', cursive;
+    font-family: 'Alfa Slab One', ;
     color: yellow;
     font-size: 120px;
     font-weight: 580;
@@ -69,6 +69,7 @@ html, body {
 .subtext {
     font-size: 80px;
     word-wrap: break-word;
+    color: white;
 }
 
 .padding {
@@ -82,6 +83,15 @@ html, body {
     position: relative;
     width: 100%;
     background-size: cover;
+}
+
+#imgcard {
+    filter: drop-shadow(8px 8px 10px green);
+}
+
+#cardimg {
+    height:220px;
+    width:100%;
 }
 
 
