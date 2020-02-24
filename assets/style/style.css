@@ -15,12 +15,15 @@ html, body {
 
 .partners {
     text-align: center;
+    color: #212529;
+    font-weight: bold;
 }
 
 #partnersid {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin: 16px;
 
 }
 .card {
@@ -29,7 +32,21 @@ html, body {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    
 }
+
+#carousel2 {
+    padding: 20px;
+}
+
+#cardfloat {
+   filter: drop-shadow(8px 8px 10px gray); 
+}
+
+.mundo {
+    text-align: center;
+}
+
 
 #footer {
     background-color: lightcyan;
@@ -86,12 +103,13 @@ html, body {
 }
 
 #imgcard {
-    filter: drop-shadow(8px 8px 10px green);
+    
 }
 
 #cardimg {
     height:220px;
     width:100%;
+    text-align: center;
 }
 
 
