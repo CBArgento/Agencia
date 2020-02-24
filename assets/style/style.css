@@ -106,6 +106,14 @@ html, body {
     
 }
 
+#introimg {
+    border-radius: 15px 50px;
+    padding: 20px;
+    width: 300px;
+    height: 200px; 
+    filter: drop-shadow(8px 8px 10px gray); 
+}
+
 #cardimg {
     height:220px;
     width:100%;
